@@ -14,6 +14,7 @@ module.exports = {
         ],
         'createDefaultProgram': true,
       },
+      plugins: ['simple-import-sort'],
       extends: [
         'eslint:recommended',
         'plugin:prettier/recommended',
@@ -42,6 +43,7 @@ module.exports = {
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-empty-function': 'warn',
         'sort-imports': 'off',
+        "simple-import-sort/exports": "error",
         'simple-import-sort/imports': [
           'error',
           {
