@@ -100,15 +100,15 @@ module.exports = {
     //   plugins: ['@angular-eslint/template'],
     //   processor: '@angular-eslint/template/extract-inline-html',
     // },
-    {
-      'files': [
-        '*.html',
-      ],
-      'extends': [
-        'plugin:@angular-eslint/template/recommended',
-        'plugin:@angular-eslint/template/accessibility',
-      ],
-      'rules': {},
-    },
+    // {
+    //   'files': [
+    //     '*.html',
+    //   ],
+    //   'extends': [
+    //     'plugin:@angular-eslint/template/recommended',
+    //     'plugin:@angular-eslint/template/accessibility',
+    //   ],
+    //   'rules': {},
+    // },
   ],
 };
