@@ -89,26 +89,15 @@ module.exports = {
         ],
       },
     },
-    // {
-    //   files: ['*.component.ts'],
-    //   extends: ['plugin:@angular-eslint/template/process-inline-templates'],
-    //   parser: '@typescript-eslint/parser',
-    //   parserOptions: {
-    //     ecmaVersion: 2020,
-    //     sourceType: 'module',
-    //   },
-    //   plugins: ['@angular-eslint/template'],
-    //   processor: '@angular-eslint/template/extract-inline-html',
-    // },
-    // {
-    //   'files': [
-    //     '*.html',
-    //   ],
-    //   'extends': [
-    //     'plugin:@angular-eslint/template/recommended',
-    //     'plugin:@angular-eslint/template/accessibility',
-    //   ],
-    //   'rules': {},
-    // },
+    {
+      'files': [
+        '*.html',
+      ],
+      'extends': [
+        'plugin:@angular-eslint/template/recommended',
+        'plugin:@angular-eslint/template/accessibility',
+      ],
+      'rules': {},
+    },
   ],
 };
